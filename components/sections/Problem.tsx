@@ -43,13 +43,12 @@ const Problem: React.FC = () => {
           </SlideUp>
 
           <SlideUp delay={0.5}>
-            <div className="bg-[var(--color-slate-50)] rounded-xl p-8 border-l-4 border-[var(--color-indigo-600)]">
-              <p className="text-base md:text-lg text-[var(--color-slate-700)] leading-relaxed">
-                <span className="font-bold text-[var(--color-slate-900)]">
+            <div className="bg-[var(--color-slate-50)] rounded-xl p-6 md:p-8 border-l-4 border-[var(--color-indigo-600)]">
+              <p className="text-sm md:text-base lg:text-lg text-[var(--color-slate-700)] leading-relaxed">
+                <span className="font-bold text-[var(--color-slate-900)] block mb-2">
                   El problema real:
-                </span>{' '}
-                El gap entre lo que sabes (objetivos de negocio, audiencia, propuesta de valor) y
-                lo que no sabes articular (cómo debe verse tu marca para lograr esos objetivos).
+                </span>
+                El gap entre lo que sabes (objetivos de negocio, audiencia, propuesta de valor) y lo que no sabes articular (cómo debe verse tu marca para lograr esos objetivos).
               </p>
             </div>
           </SlideUp>

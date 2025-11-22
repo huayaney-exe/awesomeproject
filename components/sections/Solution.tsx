@@ -37,7 +37,7 @@ const Solution: React.FC = () => {
         </SlideUp>
 
         <SlideUp delay={0.1}>
-          <p className="text-lg text-center text-[var(--color-slate-600)] mb-16 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-center text-[var(--color-slate-600)] mb-12 md:mb-16 max-w-2xl mx-auto px-4">
             De intención de negocio a brief accionable en 3 pasos
           </p>
         </SlideUp>
@@ -46,17 +46,17 @@ const Solution: React.FC = () => {
           {steps.map((step, index) => (
             <SlideUp key={index} delay={0.2 + index * 0.1}>
               <Card hover className="h-full text-center">
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center px-2">
                   <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[var(--color-indigo-600)] to-[var(--color-purple-600)] flex items-center justify-center mb-6">
                     <step.icon className="w-10 h-10 text-white" />
                   </div>
                   <div className="mb-4 text-2xl font-bold text-[var(--color-slate-900)]">
                     {index + 1}
                   </div>
-                  <h3 className="text-xl font-bold text-[var(--color-slate-900)] mb-3">
+                  <h3 className="text-lg md:text-xl font-bold text-[var(--color-slate-900)] mb-3">
                     {step.title}
                   </h3>
-                  <p className="text-[var(--color-slate-600)]">{step.description}</p>
+                  <p className="text-sm md:text-base text-[var(--color-slate-600)] leading-relaxed">{step.description}</p>
                 </div>
               </Card>
             </SlideUp>
