@@ -1,6 +1,4 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
   "framework": "nextjs",
   "regions": ["gru1"],
   "headers": [
@@ -26,7 +24,7 @@
       ]
     },
     {
-      "source": "/(.*\\.(jpg|jpeg|png|gif|ico|svg|webp))",
+      "source": "/images/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -35,7 +33,7 @@
       ]
     },
     {
-      "source": "/(.*\\.(css|js))",
+      "source": "/_next/static/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
