@@ -12,23 +12,23 @@ const Problem: React.FC = () => {
   ];
 
   return (
-    <section id="problem" className="py-20 md:py-24 px-6 bg-white">
+    <section id="problem" className="py-16 md:py-20 lg:py-24 px-4 md:px-6 bg-white">
       <div className="container-custom">
         <div className="content-max">
           <SlideUp>
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-[var(--color-slate-900)] mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[var(--color-slate-900)] mb-8 md:mb-12 px-4">
               ¿Te suena familiar?
             </h2>
           </SlideUp>
 
-          <div className="space-y-6 mb-12">
+          <div className="space-y-4 md:space-y-6 mb-8 md:mb-12">
             {problems.map((problem, index) => (
               <SlideUp key={index} delay={index * 0.1}>
-                <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-[var(--color-slate-50)] transition-colors duration-200">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[var(--color-red-500)]/10 flex items-center justify-center">
-                    <X className="w-5 h-5 text-[var(--color-red-500)]" />
+                <div className="flex items-start gap-3 md:gap-4 p-3 md:p-4 rounded-lg hover:bg-[var(--color-slate-50)] transition-colors duration-200">
+                  <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 rounded-full bg-[var(--color-red-500)]/10 flex items-center justify-center mt-0.5">
+                    <X className="w-4 h-4 md:w-5 md:h-5 text-[var(--color-red-500)]" />
                   </div>
-                  <p className="text-lg md:text-xl text-[var(--color-slate-700)] font-medium pt-1">
+                  <p className="text-base md:text-lg lg:text-xl text-[var(--color-slate-700)] font-medium leading-relaxed">
                     {problem}
                   </p>
                 </div>

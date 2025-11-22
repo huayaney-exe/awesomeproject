@@ -43,7 +43,7 @@ const FinalCTA: React.FC = () => {
 
   return (
     <section id="final-cta" className="relative">
-      <GradientBackground className="py-20 md:py-24 px-6">
+      <GradientBackground className="py-16 md:py-20 lg:py-24 px-4 md:px-6">
         <div className="container-custom">
           <div className="max-w-2xl mx-auto text-center">
             <AnimatePresence mode="wait">

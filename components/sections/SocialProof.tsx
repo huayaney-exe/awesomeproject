@@ -13,18 +13,18 @@ const SocialProof: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 md:py-24 px-6 bg-gradient-to-b from-[var(--color-slate-50)] to-white">
+    <section className="py-16 md:py-20 lg:py-24 px-4 md:px-6 bg-gradient-to-b from-[var(--color-slate-50)] to-white">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto">
           <SlideUp>
-            <div className="bg-white rounded-2xl p-8 md:p-12 shadow-[var(--shadow-lg)] border border-[var(--color-slate-200)]">
+            <div className="bg-white rounded-2xl p-6 md:p-10 lg:p-12 shadow-[var(--shadow-lg)] border border-[var(--color-slate-200)]">
               <div className="flex justify-center mb-6">
                 <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[var(--color-indigo-600)] to-[var(--color-purple-600)] flex items-center justify-center">
                   <Quote className="w-7 h-7 text-white" />
                 </div>
               </div>
 
-              <blockquote className="text-xl md:text-2xl text-[var(--color-slate-800)] text-center font-medium italic mb-6 leading-relaxed">
+              <blockquote className="text-lg md:text-xl lg:text-2xl text-[var(--color-slate-800)] text-center font-medium italic mb-6 leading-relaxed">
                 "El brief fue 10x más claro que lo que yo habría escrito. El diseñador entendió exactamente lo que necesitaba para presentar a clientes mineros."
               </blockquote>
 

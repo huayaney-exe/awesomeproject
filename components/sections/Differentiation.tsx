@@ -25,25 +25,25 @@ const Differentiation: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 md:py-24 px-6 bg-white">
+    <section className="py-16 md:py-20 lg:py-24 px-4 md:px-6 bg-white">
       <div className="container-custom">
         <SlideUp>
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[var(--color-slate-900)] mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[var(--color-slate-900)] mb-3 md:mb-4 px-4 leading-tight">
             ¿Por qué no solo contratar agencia o freelancer?
           </h2>
         </SlideUp>
 
         <SlideUp delay={0.1}>
-          <p className="text-lg text-center text-[var(--color-slate-600)] mb-16 max-w-2xl mx-auto">
+          <p className="text-sm md:text-base lg:text-lg text-center text-[var(--color-slate-600)] mb-10 md:mb-14 lg:mb-16 px-4 leading-relaxed max-w-2xl mx-auto">
             Porque ellos ejecutan diseño. BriefIA traduce tu negocio en lineamientos que aseguran resultados.
           </p>
         </SlideUp>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-6 md:gap-8">
           {comparisons.map((comparison, index) => (
             <SlideUp key={index} delay={0.2 + index * 0.1}>
               <Card hover className="h-full">
-                <h3 className="text-xl font-bold text-[var(--color-slate-900)] mb-6">
+                <h3 className="text-base md:text-lg lg:text-xl font-bold text-[var(--color-slate-900)] mb-4 md:mb-6">
                   {comparison.title}
                 </h3>
 

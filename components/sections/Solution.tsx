@@ -28,32 +28,32 @@ const Solution: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 md:py-24 px-6 bg-[var(--color-slate-50)]">
+    <section className="py-16 md:py-20 lg:py-24 px-4 md:px-6 bg-[var(--color-slate-50)]">
       <div className="container-custom">
         <SlideUp>
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[var(--color-slate-900)] mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[var(--color-slate-900)] mb-3 md:mb-4 px-4">
             Cómo funciona
           </h2>
         </SlideUp>
 
         <SlideUp delay={0.1}>
-          <p className="text-base md:text-lg text-center text-[var(--color-slate-600)] mb-12 md:mb-16 max-w-2xl mx-auto px-4">
+          <p className="text-sm md:text-base lg:text-lg text-center text-[var(--color-slate-600)] mb-10 md:mb-14 lg:mb-16 max-w-2xl mx-auto px-4 leading-relaxed">
             De intención de negocio a brief accionable en 3 pasos
           </p>
         </SlideUp>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
           {steps.map((step, index) => (
             <SlideUp key={index} delay={0.2 + index * 0.1}>
               <Card hover className="h-full text-center">
-                <div className="flex flex-col items-center px-2">
-                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[var(--color-indigo-600)] to-[var(--color-purple-600)] flex items-center justify-center mb-6">
-                    <step.icon className="w-10 h-10 text-white" />
+                <div className="flex flex-col items-center">
+                  <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br from-[var(--color-indigo-600)] to-[var(--color-purple-600)] flex items-center justify-center mb-4 md:mb-6">
+                    <step.icon className="w-8 h-8 md:w-10 md:h-10 text-white" />
                   </div>
-                  <div className="mb-4 text-2xl font-bold text-[var(--color-slate-900)]">
+                  <div className="mb-3 md:mb-4 text-xl md:text-2xl font-bold text-[var(--color-slate-900)]">
                     {index + 1}
                   </div>
-                  <h3 className="text-lg md:text-xl font-bold text-[var(--color-slate-900)] mb-3">
+                  <h3 className="text-base md:text-lg lg:text-xl font-bold text-[var(--color-slate-900)] mb-2 md:mb-3 px-2">
                     {step.title}
                   </h3>
                   <p className="text-sm md:text-base text-[var(--color-slate-600)] leading-relaxed">{step.description}</p>

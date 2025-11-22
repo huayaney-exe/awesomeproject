@@ -13,24 +13,24 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <GradientBackground parallax className="min-h-screen flex items-center justify-center py-20 px-6">
+    <GradientBackground parallax className="min-h-screen flex items-center justify-center py-16 md:py-20 px-4 md:px-6">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto text-center">
           <FadeIn>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 leading-tight tracking-tight px-4">
               Traduce tus intenciones de negocio en diseño{' '}
               <span className="inline-block">world-class</span>
             </h1>
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <p className="text-lg md:text-xl text-white/80 mb-4 max-w-2xl mx-auto">
+            <p className="text-base md:text-lg lg:text-xl text-white/80 mb-3 md:mb-4 max-w-2xl mx-auto px-4">
               Para empresas B2B en Perú
             </p>
           </FadeIn>
 
           <FadeIn delay={0.4}>
-            <p className="text-base md:text-lg text-white/70 mb-12 max-w-2xl mx-auto">
+            <p className="text-sm md:text-base lg:text-lg text-white/70 mb-8 md:mb-12 max-w-2xl mx-auto px-4 leading-relaxed">
               Deja de adivinar qué pedirle al diseñador. BriefIA traduce lo que sabes (tu negocio)
               en lo que necesitas (lineamientos de diseño accionables).
             </p>
