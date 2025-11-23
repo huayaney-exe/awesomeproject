@@ -13,7 +13,7 @@ const SocialProof: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 md:py-20 lg:py-24 px-4 md:px-6 bg-gradient-to-b from-[var(--color-slate-50)] to-white">
+    <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-[var(--color-slate-50)] to-white">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto">
           <SlideUp>
