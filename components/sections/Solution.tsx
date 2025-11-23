@@ -37,7 +37,7 @@ const Solution: React.FC = () => {
         </SlideUp>
 
         <SlideUp delay={0.1}>
-          <p className="text-sm md:text-base lg:text-lg text-center text-[var(--color-slate-600)] mb-10 md:mb-14 lg:mb-16 max-w-2xl mx-auto px-4 leading-relaxed">
+          <p className="text-sm md:text-base lg:text-lg text-center text-[var(--color-slate-600)] mb-10 md:mb-14 lg:mb-16 max-w-2xl mx-auto leading-relaxed">
             De intención de negocio a brief accionable en 3 pasos
           </p>
         </SlideUp>

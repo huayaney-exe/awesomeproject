@@ -28,13 +28,13 @@ const Differentiation: React.FC = () => {
     <section className="py-16 md:py-20 lg:py-24 bg-white">
       <div className="container-custom">
         <SlideUp>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[var(--color-slate-900)] mb-3 md:mb-4 px-4 leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[var(--color-slate-900)] mb-3 md:mb-4 leading-tight">
             ¿Por qué no solo contratar agencia o freelancer?
           </h2>
         </SlideUp>
 
         <SlideUp delay={0.1}>
-          <p className="text-sm md:text-base lg:text-lg text-center text-[var(--color-slate-600)] mb-10 md:mb-14 lg:mb-16 px-4 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-sm md:text-base lg:text-lg text-center text-[var(--color-slate-600)] mb-10 md:mb-14 lg:mb-16 leading-relaxed max-w-2xl mx-auto">
             Porque ellos ejecutan diseño. BriefIA traduce tu negocio en lineamientos que aseguran resultados.
           </p>
         </SlideUp>

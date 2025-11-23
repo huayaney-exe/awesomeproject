@@ -66,7 +66,7 @@ const Pricing: React.FC = () => {
         </SlideUp>
 
         <SlideUp delay={0.1}>
-          <p className="text-sm md:text-base lg:text-lg text-center text-[var(--color-slate-600)] mb-10 md:mb-14 lg:mb-16 px-4 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-sm md:text-base lg:text-lg text-center text-[var(--color-slate-600)] mb-10 md:mb-14 lg:mb-16 leading-relaxed max-w-2xl mx-auto">
             Sin tarjeta requerida. Actualiza cuando estés listo.
           </p>
         </SlideUp>
